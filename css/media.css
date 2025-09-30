@@ -19,9 +19,6 @@
     .hero {
         background-image: url("../img/tui-nordsee-ostsee-index.avif")
     }
-    .hero-title {
-        text-shadow:2px 2px 2px rgba(0,0,0,.27)
-    }
     .nav-footer--link {
         font-size:16px;
     }
@@ -40,11 +37,16 @@
         flex-direction: row;
     }
 }
-@media (min-width: 767px) {
-
-    .double-img{
-        flex-direction: row;
-        margin-bottom: 80px;
+@media screen and (min-width: 768px) {
+    .quote-banner{
+        padding: 50px 60px;
+    }
+    .quote-holder{
+        padding: 0 110px;
+    }
+    .icon-quote{
+        width: 90px;
+        height: 70px;
     }
 }
 
@@ -53,9 +55,6 @@
         padding: 80px 0;
     }
     .embed {
-        margin-bottom: 80px;
-    }
-    .custom-image-margin {
         margin-bottom: 80px;
     }
     .pt-60 {
@@ -92,9 +91,11 @@
         opacity: 0;
     }
     .hero-title {
-        max-width:836px;
         font-size: 50px;
         line-height: 57px;
+    }
+    .hero-title span {
+        font-size: 36px;
     }
     .nav {
         display:-webkit-box;
@@ -124,9 +125,6 @@
     }
     .hero {
         background-image:url("../img/tui-nordsee-ostsee-index.avif");
-    }
-    .hero-title {
-        max-width:1100px;
     }
     .nav-list--link {
         line-height: 19px;
