@@ -1,12 +1,12 @@
 @media(max-width: 767px)and (min-device-pixel-ratio: 2),(max-width: 767px)and (-webkit-min-device-pixel-ratio: 2),(max-width: 767px)and (min-resolution: 192dpi),(max-width: 767px)and (min-resolution: 2dpx) {
     .hero {
-        background-image:url("../img/tui-nordsee-ostsee-index@2x.avif")
+        background-image:url("../img/header@2x.webp")
     }
 }
 
 @media(min-width: 768px)and (min-device-pixel-ratio: 2),(min-width: 768px)and (-webkit-min-device-pixel-ratio: 2),(min-width: 768px)and (min-resolution: 192dpi),(min-width: 768px)and (min-resolution: 2dpx) {
     .hero {
-        background-image:url("../img/tui-nordsee-ostsee-index@2x.avif")
+        background-image:url("../img/header@2x.webp")
     }
 }
 @media screen and (max-width: 768px) {
@@ -17,7 +17,7 @@
         margin-top:47px;
     }
     .hero {
-        background-image: url("../img/tui-nordsee-ostsee-index.avif")
+        background-image: url("../img/header.webp")
     }
     .nav-footer--link {
         font-size:16px;
@@ -80,7 +80,7 @@
         width: 100%;
     }
     .hero {
-        background-image:url("../img/tui-nordsee-ostsee-index.avif");
+        background-image:url("../img/header.webp");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -124,7 +124,7 @@
         max-width: 932px
     }
     .hero {
-        background-image:url("../img/tui-nordsee-ostsee-index.avif");
+        background-image:url("../img/header.webp");
     }
     .nav-list--link {
         line-height: 19px;
@@ -139,6 +139,6 @@
 
 @media(min-width: 1200px)and (min-device-pixel-ratio: 2),(min-width: 1200px)and (-webkit-min-device-pixel-ratio: 2),(min-width: 1200px)and (min-resolution: 192dpi),(min-width: 1200px)and (min-resolution: 2dpx) {
     .hero {
-        background-image:url("../img/tui-nordsee-ostsee-index.avif")
+        background-image:url("../img/header.webp")
     }
 }
