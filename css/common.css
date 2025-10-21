@@ -162,6 +162,16 @@ img {
 .swiper-button-next:after, .swiper-button-prev:after {
     display: none;
 }
+.swiper-button-next-2{
+    right:37%!important;
+    top:auto!important;
+    bottom: 0!important;
+}
+.swiper-button-prev-2{
+    left:37%!important;
+    top:auto!important;
+    bottom: 0!important;
+}
 
 .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
     top: auto !important;

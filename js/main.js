@@ -3,7 +3,7 @@ const embedEngine = {
         embedEngine.binds();
     },
     binds() {
-        const swiper = new Swiper('.swiper', {
+        const swiper1 = new Swiper('.swiper-1', {
             slidesPerView: 1,
             loop: true,
             pagination: {
@@ -12,8 +12,8 @@ const embedEngine = {
             },
 
             navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+                nextEl: '.swiper-button-next-1',
+                prevEl: '.swiper-button-prev-1',
             },
             breakpoints: {
                 320: {
@@ -21,6 +21,40 @@ const embedEngine = {
                 },
                 767: {
                     slidesPerView: 2,
+                    spaceBetween: 20
+                }
+            }
+        });
+        const swiper2 = new Swiper('.swiper-2', {
+            slidesPerView: 'auto',
+            centeredSlides: true,
+            spaceBetween: 20,
+            grabCursor: true,
+            initialSlide: 1,
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 100,
+                modifier: 2,
+                slideShadows: false,
+            },
+
+            loop: false,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            navigation: {
+                nextEl: '.swiper-button-next-2',
+                prevEl: '.swiper-button-prev-2',
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 'auto',
+                },
+                767: {
+                    slidesPerView: 'auto',
                     spaceBetween: 20
                 }
             }
